@@ -22,7 +22,6 @@ public class StudentController {
         Student savedStudent = service.addStudent(student);
         return new ResponseEntity<>(savedStudent, HttpStatus.CREATED);
     }
-
     // Get All Students
     @GetMapping
     public ResponseEntity<List<Student>> getAllStudents() {

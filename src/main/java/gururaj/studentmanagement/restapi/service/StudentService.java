@@ -4,6 +4,7 @@ import gururaj.studentmanagement.restapi.model.Student;
 
 public interface StudentService {
 
+
     Student addStudent(Student student);
     List<Student> getAllStudents();
     Student getStudentById(Long id);

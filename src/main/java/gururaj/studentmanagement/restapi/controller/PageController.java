@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class PageController {
-
     @GetMapping("/ping")
     @ResponseBody
     public String ping() {
