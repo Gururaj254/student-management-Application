@@ -1,4 +1,4 @@
-package gururaj.studentmanagement.restapi.Controller;
+package gururaj.studentmanagement.restapi.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
